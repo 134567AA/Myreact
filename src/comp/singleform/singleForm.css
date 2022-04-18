@@ -1,0 +1,79 @@
+.sform{
+    flex:9;
+    padding-top: 50px;
+}
+.writeForm{
+    width: 1000px;
+}
+.writeText{
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+.writeIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #9d9d9d;
+    cursor: pointer;
+    float: left;
+    margin-left: 10 px;
+}
+#fileInput{
+    margin-left: 15px;
+}
+input[type=text].writeInput{
+    font-size: 20px;
+    padding: 20px;
+    width: 80%;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    display: block;
+}
+.writeFormGroup{
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.writeFormGroup:first-child::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #9d9d9d;
+}
+
+.writeSubmit{
+	box-shadow: 1px 4px 9px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:36px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.writeSubmit:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.writeSubmit:active {
+	position:relative;
+	top:1px;
+}
+.btn-box{
+    text-align: center;
+    margin-top: 50px;
+}
+
+        

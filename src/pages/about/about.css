@@ -1,0 +1,32 @@
+.about{
+    flex: 9;
+    display: flex;
+ 
+    margin-top: 100px;
+}
+
+h2{
+    border-bottom: 1px solid #666;
+    padding-bottom: 20px;
+}
+
+.notice li{
+    list-style-type:circle;
+}
+.notice li a{
+    color: #555;
+    font-weight: 500;
+    text-decoration:none ;
+    line-height: 50px;
+}
+
+.notice li a:hover{
+    font-weight: 700;
+    color: #000;
+ 
+}
+.popular{
+    display: flex;
+    justify-content: space-between;
+}
+
